@@ -53,3 +53,14 @@ button:active,
 a.button:active {
     transform: translateY(0);
 }
+
+
+nav a {
+    transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+nav a:hover {
+    opacity: 0.75;
+    transform: translateY(-1px);
+}
+
