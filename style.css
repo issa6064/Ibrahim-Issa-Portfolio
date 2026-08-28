@@ -64,3 +64,18 @@ nav a:hover {
     transform: translateY(-1px);
 }
 
+@media (max-width: 768px) {
+    .activity-card {
+        margin-bottom: 20px;
+    }
+
+    .activity-card p {
+        font-size: 0.95rem;
+    }
+}
+
+
+a,
+button {
+    cursor: pointer;
+}
