@@ -33,3 +33,23 @@ nav {
     top: 0;
     z-index: 1000;
 }
+
+
+button,
+.btn,
+a.button {
+    transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+button:hover,
+.btn:hover,
+a.button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+button:active,
+.btn:active,
+a.button:active {
+    transform: translateY(0);
+}
